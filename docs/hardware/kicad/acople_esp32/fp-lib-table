@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RSA_ICs")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Footprints/RSA_ICs.pretty")(options "")(descr "ICs y Modulos RSA"))
+  (lib (name "RSA_Conectores")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Footprints/RSA_Conectores.pretty")(options "")(descr "Conectores RSA"))
+  (lib (name "RSA_Pasivos")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Footprints/RSA_Pasivos.pretty")(options "")(descr "Pasivos RSA"))
+  (lib (name "RSA_Discretos")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Footprints/RSA_Discretos.pretty")(options "")(descr "Discretos y Transistores RSA"))
+  (lib (name "RSA_Sensores")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Footprints/RSA_Sensores.pretty")(options "")(descr "Sensores RSA"))
+)

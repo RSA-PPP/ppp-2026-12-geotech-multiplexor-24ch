@@ -1,0 +1,7 @@
+Designator,Value,Footprint,Description,LCSC Part #
+J10,Acondicionamiento 2,PinHeader_1x05_P2.54mm_Vertical,Tira de pines macho 1x05 paso 2.54 mm vertical,C49257
+J2,Acondicionamiento 1,PinHeader_2x05_P2.54mm_Vertical,Tira de pines macho 2x05 paso 2.54 mm vertical,C22554
+J4,Fuente 1,PinHeader_1x06_P2.54mm_Vertical,Tira de pines macho 1x06 paso 2.54 mm vertical,C22551
+J5,Fuente 2,PinHeader_1x08_P2.54mm_Vertical,Tira de pines macho 1x08 paso 2.54 mm vertical,C22553
+J_DIP40,CONECTOR_DIP40_MACHO,DIP-40_W15.24mm,Conector / tira macho formato DIP-40 paso 2.54 mm ancho 15.24 mm,C37207
+J_PROG1,PROGRAMADOR_RSA,PinHeader_1x06_P2.54mm_Vertical,Tira de pines macho 1x06 paso 2.54 mm vertical para pogo pins o programación,C22551

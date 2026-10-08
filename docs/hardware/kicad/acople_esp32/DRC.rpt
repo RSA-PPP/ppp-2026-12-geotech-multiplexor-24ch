@@ -1,0 +1,110 @@
+** Drc report for acople_sp32.kicad_pcb **
+** Created on 2026-09-23T06:20:57 **
+** Report includes: Errors **
+
+** Found 19 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: restricciones de configuración de placa para patios; error
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+    @(128.5900 mm, 106.2100 mm): Footprint J_PROG1
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(128.5900 mm, 106.2100 mm): PTH pad 1 [GND] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(131.1300 mm, 106.2100 mm): PTH pad 2 [TX] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(133.6700 mm, 106.2100 mm): PTH pad 3 [RX] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(136.2100 mm, 106.2100 mm): PTH pad 4 [IO0] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(138.7500 mm, 106.2100 mm): PTH pad 5 [EN] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(141.2900 mm, 106.2100 mm): PTH pad 6 [+3.3V] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(126.3500 mm, 134.1400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(126.3500 mm, 132.7400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(125.6500 mm, 134.8400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(125.6500 mm, 133.4400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(125.6500 mm, 132.0400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(124.9500 mm, 134.1400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(124.9500 mm, 132.7400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(124.2500 mm, 134.8400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(124.2500 mm, 133.4400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(124.2500 mm, 132.0400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(123.5500 mm, 134.1400 mm): PTH pad 39 [GND] of U1
+[drill_out_of_range]: Tamaño de agujero fuera del rango (restricciones de configuración de placa agujero mínimo 0.3000 mm; real 0.2000 mm)
+    Rule: restricciones de configuración de placa; error
+    @(123.5500 mm, 132.7400 mm): PTH pad 39 [GND] of U1
+
+** Found 7 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

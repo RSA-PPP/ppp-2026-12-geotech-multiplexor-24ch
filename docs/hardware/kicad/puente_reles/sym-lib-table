@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "DSPIC30F3014-30I_P") (type "KiCad") (uri "C:/Users/Remigio Guevara/Downloads/dspic30f3014/DSPIC30F3014-30I_P.kicad_sym") (options "") (descr ""))
+	(lib (name "libreria_RSA") (type "KiCad") (uri "I:/Mi unidad/RSA/tarjetas/Librerias existentes/simbolos/libreria_RSA.kicad_sym") (options "") (descr ""))
+	(lib (name "MEM2075-00-140-01-A") (type "KiCad") (uri "I:/Mi unidad/RSA/tarjetas/Librerias existentes/simbolos/MEM2075-00-140-01-A.kicad_sym") (options "") (descr ""))
+)

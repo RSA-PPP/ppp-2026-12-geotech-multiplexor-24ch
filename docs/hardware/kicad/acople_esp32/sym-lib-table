@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RSA_Microcontroladores")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Simbolos/RSA_Microcontroladores.kicad_sym")(options "")(descr "Microcontroladores RSA"))
+  (lib (name "RSA_Conectores")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Simbolos/RSA_Conectores.kicad_sym")(options "")(descr "Conectores RSA"))
+  (lib (name "RSA_Pasivos")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Simbolos/RSA_Pasivos.kicad_sym")(options "")(descr "Pasivos RSA"))
+  (lib (name "RSA_Potencia")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Simbolos/RSA_Potencia.kicad_sym")(options "")(descr "Potencia y Reguladores RSA"))
+  (lib (name "RSA_Interfaces")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Simbolos/RSA_Interfaces.kicad_sym")(options "")(descr "Interfaces RSA"))
+  (lib (name "RSA_Sensores")(type "KiCad")(uri "C:/Proyectos/tarjetas/Kicad_Librerias/Simbolos/RSA_Sensores.kicad_sym")(options "")(descr "Sensores y ADC RSA"))
+)

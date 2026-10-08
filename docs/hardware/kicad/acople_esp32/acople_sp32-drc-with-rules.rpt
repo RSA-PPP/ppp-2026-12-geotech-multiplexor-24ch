@@ -1,0 +1,161 @@
+** Drc report for acople_sp32.kicad_pcb **
+** Created on 2026-09-23T06:40:04 **
+** Report includes: Errors, Warnings **
+
+** Found 29 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: restricciones de configuración de placa para patios; error
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+    @(128.5900 mm, 106.2100 mm): Footprint J_PROG1
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(128.5900 mm, 106.2100 mm): PTH pad 1 [GND] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(131.1300 mm, 106.2100 mm): PTH pad 2 [TX] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(133.6700 mm, 106.2100 mm): PTH pad 3 [RX] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(136.2100 mm, 106.2100 mm): PTH pad 4 [IO0] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(138.7500 mm, 106.2100 mm): PTH pad 5 [EN] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[pth_inside_courtyard]: PTH inside courtyard
+    Local override; error
+    @(141.2900 mm, 106.2100 mm): PTH pad 6 [+3.3V] of J_PROG1
+    @(93.9800 mm, 110.6800 mm): Footprint J_DIP40
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(103.6600 mm, 86.7800 mm): Track [+12V] on F.Cu, length 5.6003 mm
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(149.1800 mm, 118.3200 mm): Reference field of C3
+    @(148.9604 mm, 117.7450 mm): Segment of R2 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(145.4700 mm, 118.2800 mm): Reference field of C4
+    @(145.0104 mm, 117.7750 mm): Segment of R1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(92.1487 mm, 127.0750 mm): Segment of C8 on F.Silkscreen
+    @(92.4100 mm, 127.6600 mm): Reference field of C9
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(140.0800 mm, 125.8600 mm): Reference field of C14
+    @(139.9350 mm, 126.1213 mm): Segment of C10 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(141.0250 mm, 126.1213 mm): Segment of C14 on F.Silkscreen
+    @(141.2700 mm, 126.8500 mm): Reference field of R6
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(139.9700 mm, 130.4600 mm): Reference field of C5
+    @(139.9250 mm, 130.6771 mm): Segment of R6 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: restricciones de configuración de placa para serigrafía; warning
+    @(105.8587 mm, 126.9050 mm): Segment of C6 on F.Silkscreen
+    @(106.1200 mm, 127.4900 mm): Reference field of C7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(149.1800 mm, 118.3200 mm): Reference field of C3
+    @(150.1000 mm, 117.0100 mm): Pad 2 [GND] of R2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.1850 mm, 121.0550 mm): Reference field of U2
+    @(148.2300 mm, 120.0000 mm): Pad 1 [HX_VBG] of C3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(147.1850 mm, 121.0550 mm): Reference field of U2
+    @(146.4200 mm, 119.9600 mm): Pad 2 [GND] of C4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.4700 mm, 118.2800 mm): Reference field of C4
+    @(146.1500 mm, 117.0400 mm): Pad 2 [HX_VFB] of R1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(92.4100 mm, 127.6600 mm): Reference field of C9
+    @(93.3600 mm, 126.3400 mm): Pad 2 [GND] of C8 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.9700 mm, 130.4600 mm): Reference field of C5
+    @(139.1900 mm, 129.5375 mm): Pad 2 [EN] of R6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.1500 mm, 130.6000 mm): Reference field of R4
+    @(149.6600 mm, 131.4000 mm): Pad 9 [INA-] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(151.1500 mm, 130.6000 mm): Reference field of R4
+    @(149.6600 mm, 130.1300 mm): Pad 10 [INA+] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.0800 mm, 125.8600 mm): Reference field of C14
+    @(139.2000 mm, 126.8100 mm): Pad 1 [+5V_ADC] of C10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.0800 mm, 125.8600 mm): Reference field of C14
+    @(139.2000 mm, 124.9100 mm): Pad 2 [GND] of C10 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.9700 mm, 130.4600 mm): Reference field of C5
+    @(139.1900 mm, 131.3625 mm): Pad 1 [+3.3V] of R6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(106.1200 mm, 127.4900 mm): Reference field of C7
+    @(107.0700 mm, 126.1700 mm): Pad 2 [GND] of C6 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(107.6400 mm, 130.4600 mm): Reference field of R7
+    @(107.0700 mm, 129.1700 mm): Pad 2 [GND] of C7 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.2700 mm, 126.8500 mm): Reference field of R6
+    @(141.7600 mm, 126.8100 mm): Pad 1 [EN] of C14 on F.Cu
+
+** Found 7 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+    @(84.0000 mm, 82.1800 mm): Zone [GND] on F.Cu and B.Cu, priority 0
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

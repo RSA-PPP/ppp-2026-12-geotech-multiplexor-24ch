@@ -1,0 +1,16 @@
+Comment,Designator,Footprint,LCSC Part #,Type
+10uF 25V X5R,"C1, C4, C6, C8, C12",C_0805_2012Metric,C15850,Basic Part / Extended
+22uF 16V X5R,C2,C_0805_2012Metric,C44026,Extended Part
+0.1uF 50V X7R,"C3, C5, C7, C9, C10, C11, C13, C14",C_0805_2012Metric,C49678,Basic Part
+600R@100MHz 2A,FB1,L_0805_2012Metric,C1015,Basic Part
+S8550 PNP (2TY),Q1,SOT-23,C2146,Basic Part
+20k 1%,R1,R_0805_2012Metric,C26002,Extended Part
+8.2k 1%,R2,R_0805_2012Metric,C26081,Extended Part
+100R 1%,"R4, R5",R_0805_2012Metric,C17462,Basic Part
+10k 1%,R6,R_0805_2012Metric,C17414,Basic Part
+1k 1%,R7,R_0805_2012Metric,C17513,Basic Part
+2k 1%,R8,R_0805_2012Metric,C17538,Extended Part
+ESP32-WROOM-32U-N4,U1,ESP32-WROOM-32U,C328062,Extended Part
+HX711 24-bit ADC,U2,SOIC-16_3.9x9.9mm_P1.27mm,C43656,Extended Part
+AMS1117-3.3,U3,SOT-223-3_TabPin2,C6186,Basic Part
+CJ78M05 5V 500mA,U4,TO-252-3_TabPin2,C9070,Extended Part
