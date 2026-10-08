@@ -3,7 +3,7 @@ build/
 dist/
 debug/
 .generated_files/
-nbproject/private/
+**/nbproject/private/
 *.o
 *.d
 *.p1
