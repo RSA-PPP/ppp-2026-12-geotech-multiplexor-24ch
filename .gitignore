@@ -1,0 +1,59 @@
+# === Salidas y temporales de MPLAB X IDE / Compilador XC8 ===
+build/
+dist/
+debug/
+.generated_files/
+nbproject/private/
+*.o
+*.d
+*.p1
+*.hxl
+*.sdb
+*.sym
+*.lst
+*.cof
+*.cmf
+*.mum
+*.rlf
+*.map
+
+# === PlatformIO / ESP-IDF / Arduino Core (ESP32) ===
+.pio/
+.pioenvs/
+.piolibdeps/
+sdkconfig.old
+managed_components/
+
+# === Python / Entornos virtuales ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+
+# === Registros de Datos y Evidencias de Laboratorio ===
+data/raw_samples/*
+!data/raw_samples/.gitkeep
+data/evidence/*
+!data/evidence/.gitkeep
+*.log
+
+# === IDEs y Editores de Código ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Archivos de Sistema Operativo ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

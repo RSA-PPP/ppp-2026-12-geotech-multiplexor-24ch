@@ -1,0 +1,12 @@
+# Herramientas de Soporte PC y Telemetría RS-232
+# Red Sísmica del Austro (RSA) - RSA-PPP-2026-13
+
+# Comunicación Serie / SCADA
+pyserial>=3.5
+
+# Análisis y Procesamiento de Datos MicroSD (DATALOG.CSV)
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualización de Evidencias y Calibración
+matplotlib>=3.7.0
